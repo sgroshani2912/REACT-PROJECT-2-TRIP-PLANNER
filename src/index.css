@@ -1,0 +1,108 @@
+/* write your css here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.title{
+    font-size: 3rem;
+    margin:6vh;
+    border: 7px dotted rgb(1, 17, 160);
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+
+.Cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgb( 0,0,0,0.24) 0px 3px 8px;
+
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1; 
+    object-fit: cover;
+}
+
+.tourInfo{
+    margin: 20px 5px;
+}
+
+.tourprice{
+    color: #1faa59;
+    font-size: 1.3rem;
+}
+
+.name{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    color:#12b0e8;
+    cursor: pointer;
+}
+
+.interested-btn{
+    margin-top: 18px;
+    margin: 10px 80px;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #b4141621;
+    padding: 0.7rem;
+}
+
+.interested-btn:hover{
+    background-color: red;
+    color: white;
+    transition :all 0.2;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ref-btn{
+    margin-top: 1px;
+    padding: 10px 80px;
+    border: 1px solid white;
+}
+
+.ref-btn:hover{
+    background-color: white;
+    color: black;
+    transition :all 0.2;
+}
