@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/REACT-PROJECT-2-TRIP-PLANNER/static/css/main.27f579a0.css",
+    "main.js": "/REACT-PROJECT-2-TRIP-PLANNER/static/js/main.227fbc9a.js",
+    "index.html": "/REACT-PROJECT-2-TRIP-PLANNER/index.html",
+    "main.27f579a0.css.map": "/REACT-PROJECT-2-TRIP-PLANNER/static/css/main.27f579a0.css.map",
+    "main.227fbc9a.js.map": "/REACT-PROJECT-2-TRIP-PLANNER/static/js/main.227fbc9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27f579a0.css",
+    "static/js/main.227fbc9a.js"
+  ]
+}
